@@ -1,31 +1,99 @@
-/*////////////////////////
-    Table of Contents
-    1. Global Styles
-    2. Typography
-    3. Layout
-        3.1 Reusables
-        3.2 Other
-    4. Areas
-        4.1 Header
-        4.2 Introduction
-        etc.
-    5. Media Queries
-////////////////////////*/
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Roboto:wght@300&display=swap');
 
-/* ------------------------------- 1. Global Styles -------------------------------- */
+/* 5722CD Han purple, 4B49E8 Majorelle Blue, F2F0FF Magnolia, ED4385 French Rose, 0C0C0C Rich Black FOGRA 39 */
 
-/* ------------------------------- 2. Typography ----------------------------------- */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
-/* ------------------------------- 3. Layout --------------------------------------- */
+:root {
+    --paars:#5722CD;
+    --blauw:#4845E4;
+    --roze:#ED4385;
+    --zwart:#0C0C0C;
+    --lichtpaars:#F2F0FF;
+    --lichtgrijs:#F3F6F9;
+    --grijs:#7A7A7A;
+}
 
-/* --------------- 3.1 Reusables ----------------------- */
+body {
+    font-family: "merriwe", sans-serif;
+}
 
-/* --------------- 3.2 Other --------------------------- */
+.navigatiebalk {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    color: #F2F0FF;
+}
 
-/* ------------------------------- 4. Areas ---------------------------------------- */
+.navigatiebalk ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-basis: 250px;
+    list-style-type: none;
+}
 
-/* --------------- 4.1 Header ------------------------- */
+a {
+    color:white;
+}
 
-/* --------------- 4.2 Introduction ------------------- */
+header {
+    background-color:#4845E4 ;
+}
 
-/* ------------------------------- 5. Media Queries -------------------------------- */
+.introductie {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #F2F0FF;
+    list-style-type: none;
+}
+
+.introductie li {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #F2F0FF;
+    list-style-type: none;
+    flex-basis: 250px;
+}
+
+
+.one{
+    font-size: large ;
+    font-weight: bold;
+}
+
+.two {
+    font-size: small;
+}
+
+.three {
+    font-size: xx-small;
+    border-radius: 35px;
+    background: #ED4385;
+    padding: 5px;
+    width: 120px;
+    height: 25px;
+}
+
+.informatie {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.informatie ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    list-style-type: none;
+}
+
+
